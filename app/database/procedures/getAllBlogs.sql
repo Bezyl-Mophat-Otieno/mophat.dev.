@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE getAllBlogs
+AS BEGIN 
+
+SELECT * FROM blogTable
+
+END;

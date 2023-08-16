@@ -1,0 +1,8 @@
+
+
+
+CREATE OR ALTER PROCEDURE getOneBlog
+@id VARCHAR(255) 
+AS BEGIN
+    SELECT * FROM blogTable WHERE id = @id;
+END
